@@ -1,7 +1,12 @@
 [
     {
-        "title": "Complete Deck",
-        "text": "Update presentation slides",
-        "id": "dafa122a-940e-474b-8e1c-2ff10908e661"
+        "title": "Panel Interview",
+        "text": "- Prepare presentation for interview\n- Practice content and behavioral interview questions\n- Review use cases\n",
+        "id": "cc8fce9a-1d5c-4b3a-8eb8-d9fb2b649a79"
+    },
+    {
+        "title": "Grocery List",
+        "text": "- Arugula\n- Chicken\n- Avocado\n- Milk\n- Eggs",
+        "id": "39744421-091a-426a-a5d4-b4211dcb7380"
     }
 ]
