@@ -31,7 +31,11 @@ This code requires the following to be installed:
 
 
 ## Usage
+![Note Taker Application](./assets/NewNote.jpg)
 
+![Review existing notes](./assets/ExistingNote.jpg)
+
+![Delete notes from list](./assets/DeleteNote.jpg)
 
 ## License
 This application is covered under the [License: MIT](https://opensource.org/licenses/MIT).
@@ -46,7 +50,7 @@ Resources from this project:
 
 
 ## Demo
-[Video Demo]()
+![Demo](./assets/NoteTaker.gif)
 
 
 ## Questions

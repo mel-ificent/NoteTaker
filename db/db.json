@@ -5,8 +5,13 @@
         "id": "cc8fce9a-1d5c-4b3a-8eb8-d9fb2b649a79"
     },
     {
-        "title": "Grocery List",
-        "text": "- Arugula\n- Chicken\n- Avocado\n- Milk\n- Eggs",
-        "id": "39744421-091a-426a-a5d4-b4211dcb7380"
+        "title": "Take dogs to vet",
+        "text": "Honey and Romeo vet appt on Tuesday",
+        "id": "1d3bbaf3-003f-4c58-9eb5-e509424c1756"
+    },
+    {
+        "title": "Errands",
+        "text": "Meet up with sister to run errands and lunch on Wed.",
+        "id": "9e5d5707-fb1d-4094-8eb7-3c4a55c02861"
     }
 ]
