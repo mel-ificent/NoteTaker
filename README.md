@@ -3,13 +3,16 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-
+This application allows users to add notes, view existing notes, and delete notes.  The program makes API calls to the backend storage files to retrieve existing notes so once a user saves a note it will remain available until the user decides to delete it.
 
 Highlights for this project:
-- 
+- Use of Express.js to create a server and API calls to retrieve note related data
+- Modularization of API routes to create clean file structure
+- Use of fs and util packages to read, write, append, and delete data from the backend files
+- Heroku to showcase the application
 
 ## Table of Contents
-- [User-Story](#user-story)
+- [User Story](#user-story)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -29,9 +32,8 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ## Installation
 To download this code and modify it, make sure you install the following:
 - Node.js
-- NPM express package
+- Express.js
 - NPM uuid package
-
 
 
 ## Usage
@@ -48,17 +50,23 @@ This application is covered under the [License: MIT](https://opensource.org/lice
 
 ## Contributing
 Resources from this project:
-
+- Node.js
+- Express.js
+- HTML
+- CSS
+- Javascript
+- Bootstrap
+- Font Awesome
 
 
 ## Tests
-
+Access the live application to test adding, viewing, and removing notes.
 
 ## Demo
 ![Demo](./assets/NoteTaker.gif)
 
 ## Deployed Application
-🚀[Link to the Deployed Application]()
+🚀 [Link to the Deployed Application]()
 
 
 ## Questions
