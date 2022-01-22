@@ -21,6 +21,22 @@ const readAndAppend = (content, file) => {
     });
 };
 
+const readAndDelete = (id, file) => {
+    fs.readFile(file, 'utf8', (err, data) => {
+      if (err) {
+        console.error(err);
+      } else {
+        const parsedData = JSON.parse(data);
+        parsedData.forEach((note, index) => {
+            if (note.id === id) {
+              parsedData.splice(index, 1);
+            }
+          });
+
+        writeToFile(file, parsedData);
+      }
+    });
+};
 
 // GET Route for retrieving all the notes
 notes.get('/', (req, res) => {
@@ -48,6 +64,11 @@ notes.post('/', (req, res) => {
 
 // Delete Route for a deleting a note
 notes.delete('/:id', (req, res) => {
+    id = req.params.id;
+    
+    readAndDelete(id,'./db/db.json');
+    res.json('Note deleted successfully');
+
 
   });
 
