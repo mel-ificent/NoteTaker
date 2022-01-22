@@ -16,9 +16,10 @@ Highlights for this project:
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Demo](#demo)
+- [Deployed Application](#deployed-application)
 - [Questions](#questions)
 
-## User-Story
+## User Story
 
 ```
 AS A small business owner
@@ -26,11 +27,15 @@ I WANT to be able to write and save notes
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ```
 ## Installation
-This code requires the following to be installed:
-- 
+To download this code and modify it, make sure you install the following:
+- Node.js
+- NPM express package
+- NPM uuid package
+
 
 
 ## Usage
+
 ![Note Taker Application](./assets/NewNote.jpg)
 
 ![Review existing notes](./assets/ExistingNote.jpg)
@@ -51,6 +56,9 @@ Resources from this project:
 
 ## Demo
 ![Demo](./assets/NoteTaker.gif)
+
+## Deployed Application
+🚀[Link to the Deployed Application]()
 
 
 ## Questions
