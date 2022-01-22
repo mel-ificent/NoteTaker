@@ -2,11 +2,11 @@
     {
         "title": "Test Title",
         "text": "Test text",
-        "note_id": "00001"
+        "id": "00001"
     },
     {
         "title": "Here is my note",
         "text": "hello",
-        "note_id": "50b0e853-becf-4c78-9d29-27c9be37dbd7"
+        "id": "50b0e853-becf-4c78-9d29-27c9be37dbd7"
     }
 ]

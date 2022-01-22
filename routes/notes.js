@@ -35,7 +35,7 @@ notes.post('/', (req, res) => {
     const newNote = {
     title,
     text,
-    note_id: uuidv4(),
+    id: uuidv4(),
     };
 
     //update DB with note
