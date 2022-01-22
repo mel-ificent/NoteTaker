@@ -7,7 +7,7 @@ This application allows users to add notes, view existing notes, and delete note
 
 Highlights for this project:
 - Use of Express.js to create a server and API calls to retrieve note related data
-- Modularization of API routes to create clean file structure
+- Modularization of API routes to create a clean file structure
 - Use of fs and util packages to read, write, append, and delete data from the backend files
 - Heroku to showcase the application
 
@@ -32,17 +32,23 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ## Installation
 To download this code and modify it, make sure you install the following:
 - Node.js
-- Express.js
-- NPM uuid package
+- NPM package dependencies ('NPM install') including:
+    - Express.js
+    - NPM uuid package
 
 
 ## Usage
+
+Upon accessing the Note Taker application, the user will be directed to the homepage.  The user can click "Get Started" to begin taking notes.
 ![Note Taker Application](./assets/Index.jpg)
 
+On the Note Taker page, a user can update the title and text of a note.  Once they have done so, a save icon will become available in the upper right corner to allow the user to save their note.
 ![Note Taker Application](./assets/NewNote.jpg)
 
+A user can then select any previously saved note listed on the left side to review the details.  At that point they can click the + sign in the top right corner to add another new note.
 ![Review existing notes](./assets/ExistingNote.jpg)
 
+If a user wants to delete a note, they can click on the trashcan icon next to the note they wish to delete.  This will remove the note and the page will be updated to reflect the deletion.
 ![Delete notes from list](./assets/DeleteNote.jpg)
 
 ## License
