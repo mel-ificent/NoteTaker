@@ -37,6 +37,7 @@ To download this code and modify it, make sure you install the following:
 
 
 ## Usage
+![Note Taker Application](./assets/Index.jpg)
 
 ![Note Taker Application](./assets/NewNote.jpg)
 
